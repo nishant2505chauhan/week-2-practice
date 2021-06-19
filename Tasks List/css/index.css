@@ -1,0 +1,66 @@
+.container{
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.top{
+    display: flex;
+    font-family:'Quicksand', sans-serif;
+    align-items: baseline;
+}
+.left-top{
+    width: 80%;
+}
+.right-top{
+    display: flex;
+    width: 20%;
+    justify-content:space-around;
+}
+.heading{
+    font-size: xx-large;
+    margin-block-start: 0;
+}
+.task{
+    font-weight: 900;
+}
+
+.add-text{
+    font-size: larger;
+    margin-block-start: 0;
+    align-items:flex-start;
+}
+.to-do-body{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border:1px solid orangered;
+    height: 30vh;
+    width: 11vw;
+    
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 2px lightgray;
+}
+.card-line{
+    margin-left: 15%;
+    margin-block-start: 0;
+}
+.check-items{
+    font-size: large;
+    font-family:'Quicksand', sans-serif;
+    color: orangered;
+    text-align: center;
+    font-weight: 600;
+    margin-block-end: 0;
+}
+.completed{
+    color: orangered;
+    font-weight: 800;
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+}
+.checkbox{
+    text-align: left;
+}
